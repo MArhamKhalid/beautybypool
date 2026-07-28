@@ -1,22 +1,22 @@
 const Header = () => {
   return (
     <>
-    <header className="w-full h-40 absolute px-12 z-10">
-        <nav className="w-full h-full flex justify-between items-center pt-8  ">
-            <div className="w-100 flex gap-2 items-center">
-                <div className="flex flex-col gap-1">
-                    <span className="w-8 h-[2px] bg-white rounded-full "></span>
-                    <span className="w-10 h-[2px] bg-white rounded-full "></span>
-                    <span className="w-8 h-[2px] bg-white rounded-full "></span>
+    <header className="w-full h-40 absolute px-16.5 py-12 z-10">
+        <nav className=" flex justify-between items-center ">
+            <div className="w-full flex justify-start gap-x-2 items-center">
+                <div className="flex flex-col gap-y-[5px]">
+                    <span className="w-5 h-[2px] bg-white rounded-full "></span>
+                    <span className="w-5 h-[2px] bg-white rounded-full ml-2 "></span>
+                    <span className="w-5 h-[2px] bg-white rounded-full "></span>
                 </div>
                 <div className="capitalize text-xl">
                     <a href="#">menu</a>
                 </div>
             </div>
-            <div className=" h-full flex justify-center  items-center">
+            <div className="w-full h-full flex justify-center  items-center">
                 <img src="/img/logo.png" alt="main logo" />
             </div>
-            <div className="flex  justify-center items-center w-100 h-full gap-3">
+            <div className="flex justify-end items-center w-full h-full gap-3">
                 <button className="w-70 h-14 bg-[#f8ebd4] text-xl rounded-4xl capitalize ">
                     make an appointment
                 </button>

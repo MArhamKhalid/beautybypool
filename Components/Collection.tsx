@@ -18,7 +18,7 @@ const Collection = () => {
             </div>
         </div>
     <section className="relative w-full h-dvh flex justify-center bg-[#F5EFD6]">
-        <img src="/img/bg.png" alt="background" className="absolute top-0 left-0 w-full bg-cover " />
+        <img src="/img/bg.png" alt="background" className="absolute top-0 left-0 h-full bg-cover " />
         
             {/* <div className=" absolute right-0 w-450  z-10 "> */}
                 <img src="/img/women-back.png" alt="background" className="absolute top-0 right-0 w-220 h-full " />

@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-    <header className="w-full h-40 px-12 z-10">
+    <header className="w-full h-40 absolute px-12 z-10">
         <nav className="w-full h-full flex justify-between items-center pt-8  ">
             <div className="w-100 flex gap-2 items-center">
                 <div className="flex flex-col gap-1">

@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
     <>
-    <section className="w-full h-228  ">
+    <section className="w-full h-dvh relative ">
         
-        <video autoPlay muted loop playsInline className="absolute top-0 left-0 inset-0 w-full overflow-hidden object-cover">
+        <video autoPlay muted loop playsInline className="absolute top-0 left-0 inset-0 h-full w-full overflow-hidden object-cover">
             <source src="/img/banner-video-2.mp4 " type="video/mp4"/>
         </video>
         <div className="flex flex-col justify-center items-center relative top-70 z-10 capitalize text-white">

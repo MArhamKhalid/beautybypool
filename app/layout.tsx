@@ -4,6 +4,9 @@ import "./globals.css";
 import Header from "@/Components/Header";
 import Hero from "@/Components/Hero";
 import Collection from "@/Components/Collection";
+import FAQ from "@/Components/FAQ";
+import Experience from "@/Components/Experience";
+import Reviews from "@/Components/Reviews";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +38,9 @@ export default function RootLayout({
         <Header/>
         <Hero/>
         <Collection/>
+        <FAQ/>
+        <Experience/>
+        <Reviews/>
         {children}</body>
     </html>
   );

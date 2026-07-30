@@ -5,16 +5,17 @@ const FAQ = () => {
         <div className="flex flex-col justify-center items-center gap-y-40 w-full">
             <div className="w-full h-150 bg-white rounded-b-3xl px-24 py-24 flex flex-col gap-y-1.58">
                 <div className="w-full px-26 text-[#5B4E45]">
-                    <div className="flex justify-center text-8xl capitalize ">
+                    <div className="flex justify-center flex-col text-8xl capitalize leading-28 ">
                         <h1 className="text-extrabold">
-                            <span className="text-[40px]">Your perfect</span> hair—<br/>Curated For You
+                            <span className="text-[40px]">Your perfect</span> hair—
                         </h1>
+                        <h2 className="text-center">Curated For You</h2>
                     </div>
                 </div>
-                <div className="w-full px-26 ">
+                <div className="w-full px-26 mt-18 ">
                     <div className="flex justify-between items-center capitalize text-[#5B4E45]">
-                        <p>Answer a few quick questions and receive a personalized recommendation tailored to your look, lifestyle, and standards.</p>
-                        <button className="btn-all h-14 w-60 bg-amber-100 rounded-3xl capitalize">begin your concultation</button>
+                        <h5 className="text-xl">Answer a few quick questions and receive a personalized recommendation tailored to your look, lifestyle, and standards.</h5>
+                        <button className="btn-all capitalize">begin your concultation</button>
                     </div>
                 </div>
             </div>

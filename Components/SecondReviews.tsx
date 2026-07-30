@@ -2,7 +2,7 @@ import React from 'react'
 
 const SecondReviews = () => {
   return (
-    <section className='w-full h-300 bg-white'>
+    <section className='w-full h-350 bg-white'>
                 
         <div className='w-full h-full py-24 flex flex-col gap-y-18 '>
             <div className='w-full  flex justify-center items-center'> 
@@ -21,26 +21,26 @@ const SecondReviews = () => {
                     <div className='w-full h-112.5 '>
                         <img src="/img/blogs-1.png" className='rounded-3xl w-full h-full bg-cover' alt="" />
                     </div>
-                    <div className='h-[20%] pt-20 font-sans '>
-                        <div className='w-full text-[40px] text-[#5B4E45] '>
-                            <h5>Vacation Wave</h5>
+                    <div className='h-[20%] pt-4 font-sans '>
+                        <div className='w-full text-[40px] text-[#5B4E45] leading-12'>
+                            <h5>Making Your Wig Look Even More Natural</h5>
                         </div>
-                        <div className='w-full text-gray-400  text-xl '>
-                            <p>Read More.</p>
+                        <div className='w-full text-gray-400  text-xl mt-4'>
+                            <p>READ MORE.</p>
                         </div>
 
                     </div>
                 </div>
-                <div className='w-112.5 h-181.5 flex flex-col  justify-center'>
+                <div className='w-124 h-181.5 flex flex-col justify-center mt-20'>
                     <div className='w-full h-147 '>
                         <img src="/img/blogs-2.png" width="100%"  className='rounded-3xl h-full bg-cover' alt="" />
                     </div>
-                    <div className='h-[20%] pt-20 font-sans'>
-                        <div className='w-full text-[40px] text-[#5B4E45]'>
-                            <h5>Sleek Executive</h5>
+                    <div className='h-[20%] pt-4 font-sans'>
+                        <div className='w-full text-[40px] text-[#5B4E45] leading-12'>
+                            <h5>Making Your Wig Look Even More Natural</h5>
                         </div>
-                        <div className='w-full text-gray-400 text-xl'>
-                            <p>Effortless, sun-ready texture with natural movement.</p>
+                        <div className='w-full text-gray-400 text-xl mt-4'>
+                            <p>READ MORE.</p>
                         </div>
 
                     </div>
@@ -49,12 +49,12 @@ const SecondReviews = () => {
                     <div className='w-full h-112.5 '>
                         <img src="/img/blogs-3.png" width="100%" height="75%" className='rounded-3xl' alt="" />
                     </div>
-                    <div className='h-[20%] pt-20 font-sans'>
-                        <div className='w-full text-[40px] text-[#5B4E45]'>
-                            <h5>Statement Glam</h5>
+                    <div className='h-[20%] pt-8 font-sans'>
+                        <div className='w-full text-[40px] text-[#5B4E45] leading-12'>
+                            <h5>Making Your Wig Look Even More Natural</h5>
                         </div>
-                        <div className='w-full text-gray-400 text-xl'>
-                            <p>Read More.</p>
+                        <div className='w-full text-gray-400 text-xl mt-4'>
+                            <p>READ MORE.</p>
                         </div>
 
                     </div>

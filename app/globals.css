@@ -41,7 +41,11 @@ h1,h2,h3,h4,p,button,li,a{
   font-family: var(--font-standard);
 }
 .btn-all{
-      background: linear-gradient(178deg, #e7e4d3 6.3%, #5b4e45 93.7%);
+  width: 280px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  background: linear-gradient(178deg, #e7e4d3 6.3%, #5b4e45 93.7%);
 }
 .about{
   background: #5B4E45;

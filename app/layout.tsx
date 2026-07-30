@@ -15,6 +15,7 @@ import More from "@/Components/More";
 import Socail from "@/Components/Socail";
 import Result from "@/Components/Result";
 import SecondReviews from "@/Components/SecondReviews";
+import Footer from "@/Components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,6 +58,7 @@ export default function RootLayout({
         <Socail/>
         <Result/>
         <SecondReviews/>
+        <Footer/>
         {children}</body>
     </html>
   );

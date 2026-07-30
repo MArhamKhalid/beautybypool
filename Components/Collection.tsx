@@ -7,17 +7,17 @@ const Collection = () => {
                     
                     <div className="capitalize w-100 bg-white text-black flex justify-center items-center gap-2 rounded-2xl">
                         <img src="/img/medal-1.png" alt="" />
-                        <span>Trusted By Thousands</span>
+                        <h5>Trusted By Thousands</h5>
                     </div>
                     <div className="w-100 h-full flex justify-center items-center bg-white text-black">
                         <div className="capitalize w-full h-full flex justify-center items-center bg-[#e7e4d3] rounded-t-2xl gap-2">
                             <img src="/img/protection.svg" alt="" />
-                            <span>14+ Years Of Expertise</span>
+                            <h5>14+ Years Of Expertise</h5>
                         </div>
                     </div>
                     <div className="capitalize w-100 flex justify-center items-center bg-white text-black gap-2 rounded-2xl">
                     <img src="/img/thumbs-up.svg" alt="" />
-                    <span>Quality You Can Count On</span>
+                    <h5>Quality You Can Count On</h5>
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ const Collection = () => {
         </div>
     <section className="relative w-full h-350 flex flex-col justify-center bg-[#e7e4d3] ">
         <img src="/img/bg.png" alt="background" className="absolute top-0 left-0 h-full bg-cover " />
-        <img src="/img/women-back.png" alt="background" className="absolute top-5 right-0 w-180 h-auto " /> 
+        <img src="/img/women-back.png" alt="background" className="absolute bottom-0 right-0 w-240 h-auto " /> 
 
         <div className=" h-full w-full z-0">
             <div className="w-full flex flex-col items-center gap-y-8 text-black pt-40 ">

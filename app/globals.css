@@ -43,3 +43,6 @@ h1,h2,h3,h4,p,button,li,a{
 .btn-all{
       background: linear-gradient(178deg, #e7e4d3 6.3%, #5b4e45 93.7%);
 }
+.about{
+  background: #5B4E45;
+}

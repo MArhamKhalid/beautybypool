@@ -75,3 +75,14 @@ h1,h2,h3,h4,p,button,li,a{
 .self{
   align-self: flex-end;
 }
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #423e3b;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(#fbfaf8,#f0eee6) ;
+    width: 30px;
+}

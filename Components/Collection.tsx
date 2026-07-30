@@ -52,9 +52,9 @@ const Collection = () => {
                         <img src="/img/hair-2.webp" alt=""/>
                     </div>
                     <div className="flex flex-col h-100 gap-y-4 w-full justify-center items-center">
-                        <div className="flex capitalize gap-2">
+                        <div className="flex capitalize gap-2 justify-between w-full">
                             <p className=" text-sm font-light text-gray-600">Essential Body Wave (Mink Hair)</p>
-                            <span className="font-semibold text-[#5B4E45]">$85.00</span>
+                            <p className="font-semibold text-[#5B4E45]">$85.00</p>
                         </div>
                         <div className="w-full h-12 flex justify-center items-center text-xs font-medium ">
                             <button className="flex justify-center items-center bg-[#e7e4d3] text-[#5B4E45] hover:bg-[#5B4E45] hover:text-[#e7e4d3] h-10 w-full capitalize">shop now</button>

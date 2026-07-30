@@ -32,7 +32,7 @@ const Socail = () => {
                     <div className='w-full h-116.5 flex flex-col justify-between '>
                         <img src="/img/insta-3.png" className=' rounded-full'  alt="" />
                         <div className='capitalize p-6 bg-[#f5f3ea] rounded-3xl'>
-                            <p className='leading-8'>First time at thp for cut and colour and it was great - skilled, up to the minute styling. I've been looking for a decent place in Sydney for a year and I finally found it!! Highly recommend</p>
+                            <h6 className='leading-8 text-[#4a4a4a]'>First time at thp for cut and colour and it was great - skilled, up to the minute styling. I've been looking for a decent place in Sydney for a year and I finally found it!! Highly recommend</h6>
                         </div>
                     </div>
                     <div className='w-full h-116.5'>

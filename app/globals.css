@@ -5,6 +5,7 @@
   --foreground: #171717;
   --font-style: 'Andrea-Bellarosa';
   --font-standard: 'Editor-sNote-Regular';
+  --font-thin: 'Editor-sNote-Thin';
 }
 @font-face {
   font-family: 'Andrea-Bellarosa';
@@ -13,6 +14,10 @@
 @font-face {
   font-family: 'Editor-sNote-Regular';
   src: url('/fonts/Editor-sNote-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-VariableFont_wght' ;
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
 @theme inline {
   --color-background: var(--background);
@@ -37,12 +42,15 @@ span{
   font-family: var(--font-style);
   font-size: larger;
 }
-h1,h2,h3,h4,p,button,li,a{
+h1,h2,h3{
   font-family: var(--font-standard);
+}
+h4,p,button,li,a{
+  font-family: var(--font-thin);
 }
 .btn-all{
   width: 280px;
-  height: 60px;
+  height: 64px;
   color: white;
   border-radius: 30px;
   background: linear-gradient(178deg, #e7e4d3 6.3%, #5b4e45 93.7%);

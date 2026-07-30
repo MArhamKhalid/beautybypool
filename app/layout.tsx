@@ -7,6 +7,8 @@ import Collection from "@/Components/Collection";
 import FAQ from "@/Components/FAQ";
 import Experience from "@/Components/Experience";
 import Reviews from "@/Components/Reviews";
+import Salon from "@/Components/Salon";
+import Salon2 from "@/Components/Salon2";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +43,8 @@ export default function RootLayout({
         <FAQ/>
         <Experience/>
         <Reviews/>
+        <Salon/>
+        <Salon2/>
         {children}</body>
     </html>
   );

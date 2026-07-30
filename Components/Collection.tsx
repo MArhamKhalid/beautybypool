@@ -27,7 +27,7 @@ const Collection = () => {
         <img src="/img/bg.png" alt="background" className="absolute top-0 left-0 h-full bg-cover " />
         <img src="/img/women-back.png" alt="background" className="absolute top-5 right-0 w-180 h-auto " /> 
 
-        <div className=" h-full w-full z-0">
+        <div className=" h-dvh w-full z-0">
             <div className="w-full flex flex-col items-center gap-y-8 text-black pt-40 ">
                 <div className="text-7xl">
                     <h2><span className="text-9xl">Shop by</span> Collection</h2>

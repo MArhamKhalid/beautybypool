@@ -4,7 +4,8 @@ const Advertise = () => {
   return (
     <section className='w-full h-120 py-16 px-20 bg-white'>
         <div className='flex flex-col justify-center items-center py-20 gap-y-15'>
-            <div className='text-[#5B4E45] text-7xl'><h2>Trusted.<span>Proven.</span> Consistent.</h2></div>
+            <div className='text-[#5B4E45] text-[70px]'><h2 className='text-[90px]'>Trusted.
+                <span className=' text-[90px]'>Proven.</span>Consistent.</h2></div>
             {/* <marquee  direction="left">
                 OGUE ELLE BAZAAR COSMOPOLITAN ALLURE GLAMO
             </marquee> */}

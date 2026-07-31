@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='absolute inset-0 bg-[#44362d]'></div>
         </div>
         <div className='relative w-full flex justify-center z-0'>
-            <img src="/img/footer-b-by-a.png" className='absolute' alt="" />
+            <img src="/img/footer-b-by-a.png" className='absolute top-0 w-160' alt="" />
         </div>
         <div className='w-full h-full flex justify-center items-center z-10'>
             <div className='w-full h-50 flex px-24'>
@@ -25,16 +25,19 @@ const Footer = () => {
                     </div>
                     <div className='text-xl'><h5>By subscribing you consent to us sending you emails.</h5></div>
                 </div>
-                <div className='w-full h-full flex justify-center'>
-                    <ul className='grid grid-cols-2 gap-x-8 gap-y-3 text-xl text-white  text-left'>
-                        <a href="#" className='hover:text-[#e7e4d3]'>Home</a>
-                        <a href="#" className='hover:text-[#e7e4d3]'>Stories</a>
-                        <a href="#" className='hover:text-[#e7e4d3]'>About</a>
-                        <a href="#" className='hover:text-[#e7e4d3]'>Blog</a>
-                        <a href="#" className='hover:text-[#e7e4d3]'>Services</a>
-                        <a href="#" className='hover:text-[#e7e4d3]'>Contact us</a>
-                        <a href="#" className='hover:text-[#e7e4d3]'>Products</a>
-                    </ul>
+                <div className='w-full flex text-center text-xl'>
+                    <div className='w-full flex justify-center h-10 text-xl text-white text-left list-none'>
+                        <ul className=' grid grid-cols-2 gap-y-2 w-auto'>
+                            <li className='hover:text-[#e7e4d3]'>Home</li>
+                            <li className='hover:text-[#e7e4d3]'>Stories</li>
+                            <li className='hover:text-[#e7e4d3]'>About</li>
+                            <li className='hover:text-[#e7e4d3]'>Blog</li>
+                            <li className='hover:text-[#e7e4d3]'>Services</li>
+                            <li className='hover:text-[#e7e4d3]'>Contact us</li>
+                            <li className='hover:text-[#e7e4d3]'>Products</li>
+
+                        </ul>
+                    </div>
                 </div>
                 <div className='w-full h-full flex flex-col justify-center items-end text-white capitalize gap-y-9'>
                     <div className='text-[50px]'><h2>make an appointment</h2></div>

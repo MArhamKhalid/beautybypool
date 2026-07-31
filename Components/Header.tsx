@@ -17,8 +17,8 @@ const Header = () => {
                 <img src="/img/logo.png" alt="main logo" />
             </div>
             <div className="flex justify-end items-center w-full h-full gap-3">
-                <button className="w-80 h-16 bg-[#f8ebd4] text-black text-xl rounded-4xl capitalize ">
-                    <h5>make an appointment</h5>
+                <button className="w-80 h-16 font-sans bg-[#f8ebd4] text-black text-xl rounded-4xl capitalize ">
+                    <h5 className="font-mono">make an appointment</h5>
                 </button>
                 <div className="w-11 h-11 border-[1px] border-[#e1e1e140] border-solid rounded-full flex justify-center items-center gap-2">
                     <svg  xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fffdfd" viewBox="0 0 24 24" >

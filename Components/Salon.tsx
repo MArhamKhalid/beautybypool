@@ -4,7 +4,7 @@ const Salon = () => {
   return (
     <section className='w-full h-260 bg-white'>
         {/* <div className='w-full h-260 bg-white  '> */}
-            <div className='h-full flex flex-col items-center justify-center pt-60 pb-16 gap-y-15'>
+            <div className='h-full flex flex-col items-center justify-center pt-70 pb-16 gap-y-15'>
                     
                 <div className='w-0.5 h-50 bg-[#4a4a4a]'></div>
                 <div className='w-full flex flex-col justify-center items-center gap-y-8 '>
@@ -21,11 +21,11 @@ const Salon = () => {
                         <p className='text-8xl  text-[40px] md:text-[60px] lg:text-[80px] font-thin italic leading-none capitalize'>most hair looks good</p>
                     </div>
                 </div>
-                <div className='text-5xl mt-15'>
+                <div className='text-5xl mt-15 text-[#5B4E45]'>
                     <span>Perform Over Time</span>
                 </div>
                 <div>
-                    <button className="btn-all h-14 w-60 text-m font-medium rounded-3xl capitalize text-white">begin your concultation</button>
+                    <button className="btn-all outline-none capitalize text-[#5B4E45]">begin your concultation</button>
 
                 </div>
             </div>

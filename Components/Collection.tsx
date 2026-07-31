@@ -5,17 +5,17 @@ const Collection = () => {
             {/* <div className="h-28 flex justify-center"> */}
                 <div className="flex justify-center h-full  bg-white pt-3 rounded-2xl">
                     
-                    <div className="capitalize w-100 bg-white text-black flex justify-center items-center gap-2 rounded-2xl">
+                    <div className="capitalize w-100 bg-white text-black flex justify-center items-center gap-2 rounded-2xl font-mono">
                         <img src="/img/medal-1.png" alt="" />
                         <h5>Trusted By Thousands</h5>
                     </div>
                     <div className="w-100 h-full flex justify-center items-center bg-white text-black">
-                        <div className="capitalize w-full h-full flex justify-center items-center bg-[#e7e4d3] rounded-t-2xl gap-2">
+                        <div className="capitalize w-full h-full flex justify-center items-center  font-mono bg-[#e7e4d3] rounded-t-2xl -rounded-b-2xl gap-2">
                             <img src="/img/protection.svg" alt="" />
                             <h5>14+ Years Of Expertise</h5>
                         </div>
                     </div>
-                    <div className="capitalize w-100 flex justify-center items-center bg-white text-black gap-2 rounded-2xl">
+                    <div className="capitalize w-100 flex justify-center items-center bg-white text-black gap-2 rounded-2xl  font-mono">
                     <img src="/img/thumbs-up.svg" alt="" />
                     <h5>Quality You Can Count On</h5>
                     </div>
@@ -25,14 +25,15 @@ const Collection = () => {
         </div>
     <section className="relative w-full h-350 flex flex-col justify-center bg-[#e7e4d3] ">
         <img src="/img/bg.png" alt="background" className="absolute top-0 left-0 h-full bg-cover " />
-        <img src="/img/women-back.png" alt="background" className="absolute bottom-0 right-0 w-240 h-auto " /> 
+        <img src="/img/women-back.png" alt="background" className="absolute bottom-0 right-0 w-230 h-auto " /> 
 
         <div className=" h-full w-full z-0">
-            <div className="w-full flex flex-col items-center gap-y-8 text-black pt-40 ">
-                <div className="text-7xl">
-                    <h2><span className="text-9xl">Shop by</span> Collection</h2>
+            <div className="w-full flex flex-col items-center gap-y-8 text-[#5B4E45] pt-40 ">
+                <div className="flex  text-8xl">
+                    <span className="text-8xl">Shop by</span>
+                    <h2 className="text-9xl "> Collection</h2>
                 </div>
-                <div>
+                <div className="uppercase font-normal text-xl">
                     <p>Explore Curated Collections Designed For Every Mood, Lifestyle, And Finish</p>
                 </div>
                 <div className="h-14 bg-white gap-x-16 capitalize flex justify-evenly items-center font-semibold rounded-4xl px-1">
@@ -123,9 +124,9 @@ const Collection = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex justify-center mb-8 mt-40">
-                <div className="w-80 h-12 flex justify-center relative border border-[#5B4E45] text-[#5B4E45]  hover:bg-[#5B4E45] hover:text-[#e7e4d3] rounded-2xl">
-                    <button className="capitalize">view all collection</button>
+            <div className="w-full flex justify-center mb-8 mt-40 ">
+                <div className="w-80 h-12 flex justify-center cursor-pointer relative border border-[#5B4E45] text-[#5B4E45]  hover:bg-[#5B4E45] hover:text-[#e7e4d3] rounded-2xl">
+                    <button className="capitalize cursor-pointer">view all collection</button>
                 </div>
             </div>
         </div>

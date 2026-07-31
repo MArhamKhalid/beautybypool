@@ -26,8 +26,13 @@ const Socail = () => {
                     <div className='w-full h-116.5'>
                         <img src="/img/insta-5.png" className=' rounded-2xl w-[100%] h-[100%]' alt="" />
                     </div>
-                    <div className='w-full h-116.5'>
+                    <div className='w-full h-116.5 relative'>
                         <img src="/img/insta-2.png" className=' rounded-2xl w-[100%] h-[100%]'  alt="" />
+                        <div className='absolute w-14 h-14  rounded-full top-[40%] left-[40%] pt-2 pl-2.5'>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 24 24" className=' text-white ' >
+                            <path d="M6.51 18.87a1 1 0 0 0 1-.01l10-6c.3-.18.49-.51.49-.86s-.18-.68-.49-.86l-10-6a.99.99 0 0 0-1.01-.01c-.31.18-.51.51-.51.87v12c0 .36.19.69.51.87ZM8 7.77 15.06 12 8 16.23z"></path>
+                            </svg>
+                        </div>
                     </div>
                     <div className='w-full h-116.5 flex flex-col justify-between '>
                         <img src="/img/insta-3.png" className=' rounded-full'  alt="" />
@@ -35,8 +40,13 @@ const Socail = () => {
                             <h6 className='leading-8 text-[#4a4a4a]'>First time at thp for cut and colour and it was great - skilled, up to the minute styling. I've been looking for a decent place in Sydney for a year and I finally found it!! Highly recommend</h6>
                         </div>
                     </div>
-                    <div className='w-full h-116.5'>
+                    <div className='w-full h-116.5 relative'>
                         <img src="/img/insta-4.png" className=' rounded-2xl w-[100%] h-[100%]'  alt="" />
+                        <div className='absolute w-14 h-14  rounded-full top-[40%] left-[40%] pt-2 pl-2.5'>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 24 24" className=' text-white ' >
+                            <path d="M6.51 18.87a1 1 0 0 0 1-.01l10-6c.3-.18.49-.51.49-.86s-.18-.68-.49-.86l-10-6a.99.99 0 0 0-1.01-.01c-.31.18-.51.51-.51.87v12c0 .36.19.69.51.87ZM8 7.77 15.06 12 8 16.23z"></path>
+                            </svg>
+                        </div>
                     </div>
                     <div className='w-full h-116.5'>
                         <img src="/img/insta-5.png" className=' rounded-2xl w-[100%] h-[100%]'  alt="" />

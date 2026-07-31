@@ -2,10 +2,10 @@ import React from 'react'
 
 const Result = () => {
   return (
-    <section className='relative w- full h-300 bg-[#e7e4d3] flex'>
+    <section className='relative w- full h-300 bg-[#e7e4d3] flex overflow-hidden'>
         <img src="/img/bg-line-reviews.png" className='absolute top-0 left-0 bg-cover h-[100%] w-[100%]' alt="" />
-        <div className='w-full h-full flex flex-col justify-center py-20 z-10 gap-y-15'>
-            <div className='w-full h-100 text-7xl text-[#5B4E45] flex flex-col items-center justify-center leading-26 text-center'>
+        <div className='w-full h-full flex flex-col justify-center py-20 z-10 gap-y-10'>
+            <div className='w-full h-50 text-7xl text-[#5B4E45] flex flex-col items-center justify-center leading-26 text-center'>
                 <div className='w-full'>
                     <span>Refined Results.</span>
                 </div>
@@ -15,8 +15,8 @@ const Result = () => {
             </div>
             <div className='w-full h-190 relative'>
                 <div className='w-full h-full flex justify-center items-center '>
-                    <div className='absolute left-0 top-3 w-65 '>
-                        <img src="/img/ashley.jpg" className='absolute height-[100%] width-[100%] left:0 top:0 rounded-3xl -rotate-10' alt="" />
+                    <div className='absolute -left-50 top-3 w-65 '>
+                        <img src="/img/ashley.jpg" className=' height-[100%] width-[100%] rounded-3xl -rotate-10' alt="" />
                     </div>
                     <div className='w-full h-full flex justify-center items-center gap-16 mt-40 pl-80'>
                         <img src="/img/alicia-t.jpg" className='w-97 h-114.5 rounded-3xl -rotate-10' alt="" />
@@ -26,8 +26,8 @@ const Result = () => {
                             <h5 className='text-xl'>I'm so impressed! The texture matches my hair perfectly, and I love how easy it is to style. It feels soft, looks luxurious, and blends seamlessly. I've already gotten so many compliments. I'm hooked!</h5>
                         </div>
                     </div>
-                    <div className='absolute right-6 top-0 w-65 h-100 object-cover'>
-                        <img src="/img/t-nelson.jpg" className='absolute height-[100%] width-[100%] top:0 right:0 rounded-3xl rotate-10' alt="" />
+                    <div className='absolute -right-50 top-0 w-65 h-100 object-cover'>
+                        <img src="/img/t-nelson.jpg" className=' height-[100%] width-[100%] rounded-3xl rotate-10' alt="" />
                     </div>
                 </div>
                 <div className='w-40 h-20 absolute flex justify-center items-center gap-5 left-28 bottom-5'>
